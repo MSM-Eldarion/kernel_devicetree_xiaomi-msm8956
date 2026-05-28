@@ -1,3 +1,7 @@
+&labibb {
+	status = "ok";
+};
+
 &pmi8950_gpios {
 	pwm_ir {
 		pwm_ir_default: pwm_ir_default {
