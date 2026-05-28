@@ -1,3 +1,4 @@
 #include "display.dtsi"
 #include "battery.dtsi"
+#include "led.dtsi"
 #include "regulator.dtsi"
