@@ -1,5 +1,6 @@
 #include "display.dtsi"
 #include "battery.dtsi"
+#include "fingerprint.dtsi"
 #include "ir.dtsi"
 #include "led.dtsi"
 #include "pmic.dtsi"
