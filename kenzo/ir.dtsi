@@ -1,0 +1,11 @@
+&soc {
+	pwm_ir {
+		compatible = "pwm-ir-mi8953";
+		pwms = <&pmi8950_pwm 0 0>;
+		qcom,test-gpios = <&pmi8950_gpios 1 0>;
+
+		pinctrl-names = "ir_active", "ir_sleep";
+		pinctrl-0 = <&pwm_ir_default>;
+		pinctrl-1 = <&pwm_ir_sleep>;
+	};
+};

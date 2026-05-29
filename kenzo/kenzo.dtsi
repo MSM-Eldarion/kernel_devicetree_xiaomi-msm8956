@@ -1,5 +1,6 @@
 #include "display.dtsi"
 #include "battery.dtsi"
+#include "ir.dtsi"
 #include "led.dtsi"
 #include "pmic.dtsi"
 #include "regulator.dtsi"
